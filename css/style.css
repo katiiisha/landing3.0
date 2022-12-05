@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url(../fonts/MontserratAlternates-ExtraBold.woff) format('woff'),
+        url(../fonts/MontserratAlternates-ExtraBold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates ExLight';
+    src: url(../fonts/MontserratAlternates-ExtraLight.woff) format('woff'),
+        url(../fonts/MontserratAlternates-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates 1';
+    src: url(../fonts/MontserratAlternates-BoldItalic.woff) format('woff'),
+        url(../fonts/MontserratAlternates-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+ 
+  
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Montserrat Alternates ExLight' ;
+    letter-spacing: 20px;
+    
+
+}
+h3 {
+    color: rgb(186, 115, 115);
+    font-family: 'Montserrat Alternates ExLight';
+    
+}
+span {
+    color: rgb(102, 57, 68);
+    font-family: 'Montserrat Alternates';
+    font-size: 20px;
+    text-align: center;
+}
+a, form {
+    color: rgb(109, 40, 52);
+    text-decoration: none;
+    font-family: 'Montserrat Alternates';
+}
+a:hover {
+    color: rgb(236, 57, 57);
+}
+pre, p{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat Alternates ExLight';
+}
+ body {
+    background-size: cover;
+    background-image: url(../img/фон.jpg);
+ }
+.necklace, .top, .ring, .earrings, .bag { 
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box ;
+    width: 400px;
+    height: 400px;
+ } 
+ 
+  .menu {  
+    display: block;
+    float: right;
+    /* box-sizing: border-box ;
+    width: 300px;
+    height: 400px; */
+ }
+ .img {
+    display: block;
+    float: left;  
+ }
+ .base{
+    display: block;
+ }
+ /* footer{
+    float: left;
+ }  */
+ .catalogue img {
+    width:300px; 
+    height:300px;
+    border: 0px;
+ }
+ .catalogue p {
+    font-family: 'Montserrat Alternates ExLight';
+ }
+ .base img {
+    
+    width:300px ;
+    height: 350px;
+    
+ }
+
+ li {
+    list-style: circle;
+    color: white;
+ }
+ .lk {
+    text-align: center;
+ }
+ button, input {
+    font-family: 'Montserrat Alternates 1';
+ }
+ .var {
+    font-family: 'Montserrat Alternates ExLight';
+    text-align: left;
+ }
+
+
+
+
+
+ 
